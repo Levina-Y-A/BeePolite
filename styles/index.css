@@ -72,6 +72,7 @@ img, input { vertical-align:top }
 	vertical-align:top;	
 	display:inline-block;
 	margin-top: 50px;
+    position: relative;
 	}
 
 
@@ -103,4 +104,15 @@ img, input { vertical-align:top }
 }
 .Urheberrecht{
 	margin-left: 2%;
+}
+#hoeflicher>span{
+   position:absolute;
+   display: block;
+   top:77px;
+   left:0;
+   right:0;
+   bottom:0;
+}
+#hoeflicher>span:hover{
+    cursor: grab;
 }

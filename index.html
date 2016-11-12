@@ -13,22 +13,23 @@
 		<style type="text/css">
 		</style>
 		<script type="text/javascript" src="http://code.jquery.com/jquery-latest.js"></script>
+        <script src="./script.js"></script>
 	</head>
 
 	<body>
 		<div id="wrap">
 			<div id="header">
-				<a href="#" alt="Das Logo des Beepolite"><img src="https://github.com/Levina-Y-A/BeePolite/blob/master/beepolitelogo.png?raw=true" /></a>
+				<a href="#" alt="Das Logo des Beepolite"><img src="beepolitelogo.png"/></a>
 				
 			</div>
 		
 			<!-- header area -->
 			<!-- contents end -->
 			<div class="contents"> 
-				<form> 
-					<textarea class="textbox_left" name="" value=""></textarea>
-					<button type="submit" class="button" id="hoeflicher" ><span>"Höflicher"</span></button>
-					<textarea class="textbox_right" name="" value=""></textarea>
+				<form action="/verarbeitet" method="post"> 
+					<textarea id="input-text" class="textbox_left" name="eingabe"></textarea>
+					<button type="submit" class="button" id="hoeflicher" action="/verarbeitet"><span>"Höflicher"</span></button>
+					<textarea id="output-text" class="textbox_right" name="" value=""></textarea>
 
 				</form>
 			</div>
