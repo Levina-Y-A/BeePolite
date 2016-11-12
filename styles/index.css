@@ -1,0 +1,106 @@
+@charset "utf-8";
+@import url(http://fonts.googleapis.com/earlyaccess/nanummyeongjo.css);
+
+/* reset */
+body, div, p, h1, h2, h3, h4, h5, h6, ul, ol, li, dl, dt, dd, table, tr, th, td, form,
+fieldset, legend, address, blockquote { margin:0; padding:0 }
+h1, h2, h3, h4, h5, h6 { font-size:100% }
+address, em { font-style:normal }
+fieldset, img { border:0 none }
+table { border-collapse:collapse; border-spacing:0 }
+ol, ul, li { list-style:none }
+hr { display:none }
+
+
+/* base */
+body {
+	font-size:12px;
+	font-family: 'Nanum Myeongjo','Open Sans',"돋움","Dotum","맑은 고딕","Malgun Gothic","Apple Gothic",sans-serif;
+	color:#666;
+	line-height: 18px;
+	background-color:#ffa702;
+	line-height: 18px;
+}
+
+a { text-decoration:none; color: #666; }
+a:hover { text-decoration:underline }
+a:visited {text-decoration: none; color: #666; }
+img, input { vertical-align:top }
+.hidden { width:0; height:0; line-height:0; font-size:0 }
+
+
+#header img {
+	width:500px;
+	height:387px;
+	margin-left:30%;
+}
+
+
+.contents form textarea.textbox_left{
+	width:360px;
+	height:150px;
+	margin-left: 10%;
+	border:none;
+	border-radius: 15px 100px;
+	padding-top:70px;
+	padding-bottom:70px;
+	vertical-align: top;
+}
+
+
+.contents form textarea.textbox_right{
+	width:360px;
+	height:180px;
+	border:none;
+	margin-left:3%;
+	border-radius: 100px 15px;
+	padding-top:70px;
+	padding-bottom:70px;
+	vertical-align:top;	
+}
+
+.contents .button {
+	margin-left: 3%;
+	padding:0;
+	border:none;
+	color:#fff;
+	width:150px;
+	height:200px;
+	margin-top:50px;
+	font-size:1.8em;
+	border-radius: 50%;
+	vertical-align:top;	
+	display:inline-block;
+	margin-top: 50px;
+	}
+
+
+#hoeflicher{
+	background-image: url(../styles/beepolite_button.png);
+    background-color:transparent;
+	background-size:contain;
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+}
+
+
+
+
+#footer{
+	margin:0 auto;
+	width:100%;
+	height:30px;
+	background-color:#fff;
+	margin-top:50px;
+}
+
+.Institutsnamen{
+	margin-left: 32%;
+}
+
+.gemacht_von{
+	margin-left:2%;
+}
+.Urheberrecht{
+	margin-left: 2%;
+}
