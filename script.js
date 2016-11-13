@@ -1,8 +1,25 @@
 $(document).ready(function(){
   const qs = getQueryString(location.search)
-  console.log(qs)
-  $('#input-text').text(qs.inputText)
-  $('#output-text').text(qs.outputText)
+
+  if (qs.inputText) {
+    $('#input-text').text(decodeURI(qs.inputText))
+  }
+
+  if (qs.outputText) {
+    $('#output-text').text(decodeURI(qs.outputText))
+  }
+
+  $('#form').on('submit', function(e) {
+    e.preventDefault()
+
+    $.ajax({
+      method: 'POST',
+      url: '/verarbeitet',
+      data: {
+        eingabe: encodeURI($('#input-text').val())
+      }
+    })
+  })
 })
 
 function getQueryString(str) {
