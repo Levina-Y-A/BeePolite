@@ -45,6 +45,8 @@ img, input { vertical-align:top }
 	padding-top:70px;
 	padding-bottom:70px;
 	vertical-align: top;
+	font-family: "나눔손글씨 붓";
+        font-size: 1.5em;
 }
 
 
@@ -57,6 +59,8 @@ img, input { vertical-align:top }
 	padding-top:70px;
 	padding-bottom:70px;
 	vertical-align:top;	
+	font-family: "나눔손글씨 붓";
+        font-size: 1.5em;
 }
 
 .contents .button {
